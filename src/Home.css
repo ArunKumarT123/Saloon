@@ -1,5 +1,5 @@
 .home_banner{
-    background-image: url("src/assets/banner/banner-01.jpg");
+    background-image: url("./assets/banner/banner-01.jpg");
     min-height: 695px;
     position: relative !important;
     background-size: cover !important;
