@@ -1,27 +1,31 @@
 import React from 'react'
 import "./allcss.css"
+import logo_white from "../assets/logos/logo-white.png"
+import icon_09 from "../assets/icons/icon-09.png"
+import icon_10 from "../assets/icons/icon-09.png"
+import icon_11 from "../assets/icons/icon-09.png"
 
 function Homefooter() {
   return (
-    <footer className="pt-0 mt-7">
+    <footer className="pt-0  mt-20">
             <div className="container border-bottom border-color-light-white py-2-5 py-md-6 mb-6 mb-md-8 mb-lg-10">
                 <div className="row justify-content-center align-items-center mt-n1-9">
-                    <div className="col-xl-6 mt-1-9">
+                    <div className="col-xl-6 mt-1-9 mt-10">
                         <div className="d-sm-flex align-items-center">
                             <div className="flex-shrink-0 mb-1-6 mb-sm-0">
-                                <a href="index.html" className="footer-logo"><img src="src/assets/logos/logo-white.png" alt="..."/></a>
+                                <a href="index.html" className="footer-logo"><img src={logo_white} alt="..."/></a>
                             </div>
                             <div className="flex-grow-1 border-sm-start border-color-light-white ms-sm-4 ps-sm-4 border-width-2">
                                 <p className="mb-0 display-30 text-white opacity9 w-lg-95">Create a free account to discover lots of Jobs & Career Opportunities around you!</p>
                             </div>
                         </div>
                     </div>
-                    <div className="col-xl-6 mt-1-9">
+                    <div className="col-xl-6 mt-1-9 mt-3">
                         <div className="row">
                             <div className="col-sm-4 mb-1-9 mb-sm-0">
                                 <div className="d-flex align-items-center">
                                     <div className="flex-shrink-0">
-                                        <img src="src/assets/icons/icon-09.png" alt="..."/>
+                                        <img src={icon_09} alt="..."/>
                                     </div>
                                     <div className="flex-grow-1 ms-3">
                                         <h3 className="h2 mb-1 countup font-weight-700 text-white">1327</h3>
@@ -32,7 +36,7 @@ function Homefooter() {
                             <div className="col-sm-4 mb-1-9 mb-sm-0">
                                 <div className="d-flex align-items-center">
                                     <div className="flex-shrink-0">
-                                        <img src="src/assets/icons/icon-10.png" alt="..."/>
+                                        <img src={icon_10} alt="..."/>
                                     </div>
                                     <div className="flex-grow-1 ms-4">
                                         <h3 className="h2 mb-1 countup font-weight-700 text-white">150</h3>
@@ -43,7 +47,7 @@ function Homefooter() {
                             <div className="col-sm-4">
                                 <div className="d-flex align-items-center">
                                     <div className="flex-shrink-0">
-                                        <img src="src/assets/icons/icon-11.png" alt="..."/>
+                                        <img src={icon_11} alt="..."/>
                                     </div>
                                     <div className="flex-grow-1 ms-4">
                                         <h3 className="h2 mb-1 countup font-weight-700 text-white">220</h3>
@@ -106,7 +110,7 @@ function Homefooter() {
                         <div className="ps-lg-2-2 ps-xl-2-5">
                             <h3 className="h5 mb-1-6 mb-lg-1-9 text-white">Join Newsletter</h3>
                             <p className="text-white mb-4">Subscribe to get the latest jobs posted, candidates...</p>
-                            <form className="quform newsletter-form" action="quform/newsletter-two.php" method="post" enctype="multipart/form-data" onclick="">
+                            <form className="quform newsletter-form" >
                                 <div className="quform-elements">
                                     <div className="row">
                                         {/* <!-- Begin Text input element --> */}

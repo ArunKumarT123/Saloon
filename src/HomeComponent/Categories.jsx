@@ -1,44 +1,52 @@
 import React from "react";
+import icon1 from "../assets/icons/icon-01.png";
+import icon2 from "../assets/icons/icon-02.png";
+import icon3 from "../assets/icons/icon-03.png";
+import icon4 from "../assets/icons/icon-04.png";
+import icon5 from "../assets/icons/icon-05.png";
+import icon6 from "../assets/icons/icon-06.png";
+import icon7 from "../assets/icons/icon-07.png";
+import icon8 from "..//assets/icons/icon-08.png";
 
 function Categories() {
   const categoryList = [
     {
-      url: "src/assets/icons/icon-01.png",
+      url: icon1,
       bgColoe: "light-blue",
       id: 1,
     },
     {
-      url: "src/assets/icons/icon-02.png",
+      url: icon2,
       bgColoe: "categorie-icon red",
       id: 2,
     },
     {
-      url: "src/assets/icons/icon-06.png",
+      url: icon6,
       bgColoe: "categorie-icon yellow",
       id: 3,
     },
     {
-      url: "src/assets/icons/icon-04.png",
+      url: icon4,
       bgColoe: "categorie-icon orange",
       id: 4,
     },
     {
-      url: "src/assets/icons/icon-05.png",
+      url: icon5,
       bgColoe: "categorie-icon green",
       id: 5,
     },
     {
-      url: "src/assets/icons/icon-03.png",
+      url: icon3,
       bgColoe: "categorie-icon purple",
       id: 6,
     },
     {
-      url: "src/assets/icons/icon-07.png",
+      url: icon7,
       bgColoe: "categorie-icon blue",
       id: 7,
     },
     {
-      url: "src/assets/icons/icon-08.png",
+      url: icon8,
       bgColoe: "categorie-icon cyan",
       id: 8,
     },
@@ -52,11 +60,11 @@ function Categories() {
         </div>
         <div
           className="flex flex-wrap"
-          style={{ marginTop: "-1.9rem !important" }}
+          style={{ marginTop: "-1.9rem !important" ,justifyContent:"center"}}
         >
           {categoryList.map((c) => (
             <div
-              className="sm:w-1/2 pr-4 pl-4 lg:w-1/4 pr-4 pl-4 mt-1-9"
+              className="sm:w-1/2 pr-4 pl-4 lg:w-1/4 pr-4 pl-4 mt-1-9 mt-3"
               key={c.id}
             >
               <div className="card card-style1 h-full">

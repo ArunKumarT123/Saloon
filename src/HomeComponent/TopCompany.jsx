@@ -1,20 +1,26 @@
 import React from 'react'
 import "./allcss.css"
+import company1 from "../assets/content/company-01.jpg";
+import company2 from "../assets/content/company-02.jpg";
+import company3 from "../assets/content/company-03.jpg";
+import company4 from "../assets/content/company-04.jpg";
+import company5 from "../assets/content/company-05.jpg";
+import company6 from "../assets/content/company-06.jpg";
 
 function TopCompany() {
   return (
-    <div className="container">
+    <div className="container mt-20 mb-20">
                 <div className="section-heading">
                     <h2>Top Hiring Companies</h2>
                     <p>Know your really worth and find the job that qualify your life.</p>
                 </div>
                 <div className="row mt-n1-9">
-                    <div className="col-lg-6 mt-1-9">
+                    <div className="col-lg-6 mt-1-9 mt-3">
                         <div className="card-style2">
                             <div className="card-body">
                                 <div className="d-sm-flex">
                                     <div className="flex-shrink-0 mb-3 mb-sm-0">
-                                        <img src="src/assets/content/company-01.jpg" alt="..."/>
+                                        <img src={company1} alt="..."/>
                                     </div>
                                     <div className="flex-grow-1 ms-sm-3">
                                         <h5><a href="employer-details.html">Conzio construction</a></h5>
@@ -39,12 +45,12 @@ function TopCompany() {
                             </div>
                         </div>
                     </div>
-                    <div className="col-lg-6 mt-1-9">
+                    <div className="col-lg-6 mt-1-9 mt-3">
                         <div className="card-style2">
                             <div className="card-body">
                                 <div className="d-sm-flex">
                                     <div className="flex-shrink-0 mb-3 mb-sm-0">
-                                        <img src="src/assets/content/company-02.jpg" alt="..."/>
+                                        <img src={company2} alt="..."/>
                                     </div>
                                     <div className="flex-grow-1 ms-sm-3">
                                         <h5><a href="employer-details.html">Midway Overline</a></h5>
@@ -69,12 +75,12 @@ function TopCompany() {
                             </div>
                         </div>
                     </div>
-                    <div className="col-lg-6 mt-1-9">
+                    <div className="col-lg-6 mt-1-9 mt-3">
                         <div className="card-style2">
                             <div className="card-body">
                                 <div className="d-sm-flex">
                                     <div className="flex-shrink-0 mb-3 mb-sm-0">
-                                        <img src="src/assets/content/company-03.jpg" alt="..."/>
+                                        <img src={company3} alt="..."/>
                                     </div>
                                     <div className="flex-grow-1 ms-sm-3">
                                         <h5><a href="employer-details.html">Ktone Software</a></h5>
@@ -99,12 +105,12 @@ function TopCompany() {
                             </div>
                         </div>
                     </div>
-                    <div className="col-lg-6 mt-1-9">
+                    <div className="col-lg-6 mt-1-9 mt-3">
                         <div className="card-style2">
                             <div className="card-body">
                                 <div className="d-sm-flex">
                                     <div className="flex-shrink-0 mb-3 mb-sm-0">
-                                        <img src="src/assets/content/company-04.jpg" alt="..."/>
+                                        <img src={company4} alt="..."/>
                                     </div>
                                     <div className="flex-grow-1 ms-sm-3">
                                         <h5><a href="employer-details.html">Alpha Kem</a></h5>
@@ -130,12 +136,12 @@ function TopCompany() {
                             </div>
                         </div>
                     </div>
-                    <div className="col-lg-6 mt-1-9">
+                    <div className="col-lg-6 mt-1-9 mt-3">
                         <div className="card-style2">
                             <div className="card-body">
                                 <div className="d-sm-flex">
                                     <div className="flex-shrink-0 mb-3 mb-sm-0">
-                                        <img src="src/assets/content/company-05.jpg" alt="..."/>
+                                        <img src={company5} alt="..."/>
                                     </div>
                                     <div className="flex-grow-1 ms-sm-3">
                                         <h5><a href="employer-details.html">Waft Technologies</a></h5>
@@ -159,12 +165,12 @@ function TopCompany() {
                             </div>
                         </div>
                     </div>
-                    <div className="col-lg-6 mt-1-9">
+                    <div className="col-lg-6 mt-1-9 mt-3">
                         <div className="card-style2">
                             <div className="card-body">
                                 <div className="d-sm-flex">
                                     <div className="flex-shrink-0 mb-3 mb-sm-0">
-                                        <img src="src/assets/content/company-06.jpg" alt="..."/>
+                                        <img src={company6} alt="..."/>
                                     </div>
                                     <div className="flex-grow-1 ms-sm-3">
                                         <h5><a href="employer-details.html">Sai Web Infotech</a></h5>

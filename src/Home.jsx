@@ -11,15 +11,17 @@ import FeaturedJob from "./HomeComponent/FeaturedJob";
 import TopCompany from "./HomeComponent/TopCompany";
 import Process from "./HomeComponent/Process";
 import Homefooter from "./HomeComponent/Homefooter";
+import Navbar from "./HomeComponent/Navbar/Navbar";
 
 function Home() {
   
   return (
     <div>
-      <Header />
+      {/* <Header /> */}
+      <Navbar/>
       <div className="home_banner">
         <div className="banner_contain">
-          <div className="flex flex-wrap  items-center justify-center min-vh-100 text-center pt-6 md:pt-0">
+          <div className="flex flex-wrap  items-center justify-center min-vh-70 text-center pt-6 md:pt-0 banner_contain_text">
             <div className="lg:w-full pr-4 pl-4 mb-1-9 lg:mb-0 pt-6 pb-12 py-sm-6">
               <h1 className="caption">
                 You Can Choose Your <span className="text-orange-500">job</span>
@@ -31,14 +33,15 @@ function Home() {
             </div>
           </div>
 
-          <div className="search_form">
-            <div className="flex flex-wrap gap-9">
+          <div className="search_form" style={{minWidth:"300px",marginTop:"50px"}}>
+            <div className="flex flex-wrap gap-9" style={{justifyContent:'center'}}>
               <TextField
                 id="outlined-basic"
                 label="Outlined"
                 variant="outlined"
                 style={{
-                  width: "270px",
+                  width: "22%",
+                  minWidth:"230px",
                 }}
                 placeholder="Job title, keywords, or company"
               />
@@ -47,7 +50,8 @@ function Home() {
                 label="Outlined"
                 variant="outlined"
                 style={{
-                  width: "270px",
+                  width: "22%",
+                  minWidth:"230px",
                 }}
                 placeholder="City or postcode"
               />
@@ -56,7 +60,8 @@ function Home() {
                 placeholder="hvhj"
                 value={"com"}
                 style={{
-                  width: "270px",
+                  width: "22%",
+                  minWidth:"230px",
                 }}
               >
                 <MenuItem value="com" selected>
@@ -77,6 +82,8 @@ function Home() {
                   fontSize: "22px",
                   fontWeight: "600",
                   textTransform: "none",
+                  width: "22%",
+                  minWidth:"230px",
                 }}
                 variant="contained"
                 startIcon={

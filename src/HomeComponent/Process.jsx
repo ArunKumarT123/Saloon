@@ -3,7 +3,7 @@ import "./allcss.css"
 
 function Process() {
   return (
-    <div className="container mt-6">
+    <div className="container  mt-20 mb-20">
                 <div className="section-heading">
                     <h2>How It Work?</h2>
                     <p>Know your really worth and find the job that qualify your life.</p>
